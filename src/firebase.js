@@ -17,13 +17,14 @@ import {
   addDoc,
 } from "firebase/firestore";
 
+/* fetch this from firebase */
 const firebaseConfig = {
-  apiKey: "AIzaSyA2cFwjX3L8KLHws5YCqRwAPi2d7zx42Ec",
-  authDomain: "findmypt-45f51.firebaseapp.com",
-  projectId: "findmypt-45f51",
-  storageBucket: "findmypt-45f51.appspot.com",
-  messagingSenderId: "448644522866",
-  appId: "1:448644522866:web:93dddc43ed502bedc273eb"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 const app = initializeApp(firebaseConfig);
